@@ -40,3 +40,9 @@ python -m pygame.examples.aliens
 ```
 
 That's just needed on mac if you use virtualenv, not if you install it with --user, or if you use -m venv.
+
+---
+
+## Sources:
+
+For instructions on how to use `Pygame` if you are a python programmer, [see here](https://www.pygame.org/docs/tut/PygameIntro.html).
