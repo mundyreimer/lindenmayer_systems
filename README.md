@@ -18,7 +18,7 @@ Then, install the necessary packages:
 
 ### 2) Troubleshooting:
 
-If your examples aren't running and you are using a recent version of Mac OS X, it might be a problem with *pygame* and virtualenv. More [details here](https://github.com/pygame/pygame/issues/203#issuecomment-365798598).   
+If your examples aren't running and you are using a recent version of Mac OS X, it might be a problem with the interaction between *pygame* and *virtualenv*. More [details here](https://github.com/pygame/pygame/issues/203#issuecomment-365798598).   
 
 Try this line to install pygame instead: 
 `python3 -m pip install -U pygame --user`
