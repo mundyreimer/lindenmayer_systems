@@ -25,7 +25,7 @@ Try this line to install pygame instead:
 
 It does work if you create a venv with python -m venv however. Instructions if you want to use an virtualenv (some people have trouble with the window losing focus when inside a venv).
 
-`# create a virtualenv called 'anenv' and use it.
+```# create a virtualenv called 'anenv' and use it.
 python3 -m virtualenv anenv
 . ./anenv/bin/activate
 
@@ -35,6 +35,6 @@ venvdotapp
 python -m pip install pygame
 
 # See if pygame works with the oo module, and the aliens example.
-python -m pygame.examples.aliens`
+python -m pygame.examples.aliens```
 
 That's just needed on mac if you use virtualenv, not if you install it with --user, or if you use -m venv.
