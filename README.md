@@ -5,7 +5,7 @@ Collection of personal experiments around artificial life, lindenmayer systems, 
 
 ## Setup
 
-1) Installing dependencies:
+### 1) Installing dependencies:
 
 If using venv, create a virtual environment named `venv_linden` using:
 `python3 -m venv venv_linden`
@@ -16,7 +16,7 @@ Activate the environment:
 Then, install the necessary packages: 
 `pip install -r requirements.txt`
 
-2) Troubleshooting:
+### 2) Troubleshooting:
 
 If your examples aren't running and you are using a recent version of Mac OS X, it might be a problem with *pygame* and virtualenv. More [details here](https://github.com/pygame/pygame/issues/203#issuecomment-365798598).   
 
