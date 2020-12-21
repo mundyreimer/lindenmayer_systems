@@ -22,4 +22,4 @@ Then, install the necessary packages:
 
 ## Sources:
 
-For a beginner's tutorial on how to use `Turtle` in Python, [see here](https://realpython.com/beginners-guide-python-turtle/).
+[See here](https://realpython.com/beginners-guide-python-turtle/) for a beginner's tutorial on how to use `Turtle` in Python.
