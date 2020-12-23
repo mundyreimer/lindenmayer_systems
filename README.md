@@ -28,6 +28,6 @@ Then, install the necessary packages:
 
 * [See here](http://algorithmicbotany.org/papers/abop/abop.pdf) for *The Algorithmic Beauty of Plants* by [Przemyslaw Prusinkiewicz](https://en.wikipedia.org/wiki/Przemys%C5%82aw_Prusinkiewicz) (director of the Computer Graphics group studying Fibonacci numbers and modeling using grammars) and [Aristid Lindenmayer](https://en.wikipedia.org/wiki/Aristid_Lindenmayer) (a theoretical biologist studying sequence generators). This textbook is based off Lindenmayer's original notes discusssing the theory and practice of Lindenmayer (L-)Systems for modeling plant growth.
 
-* [See here] for my sequence of articles on Lindenmayer Systems from the perspectives of theoretical biology, artificial life, physics, mathematics, computation, linguistics, and philosophy.
+* See here for my sequence of articles on Lindenmayer Systems from the perspectives of theoretical biology, artificial life, physics, mathematics, computation, linguistics, and philosophy.
 
 
