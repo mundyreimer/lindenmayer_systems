@@ -20,7 +20,7 @@ Activate the environment:
 
 (Just using virtualenv) `source venv_linden/bin/activate`
 
-(Using Pyenv's ) `pyenv local myproject`
+(Using Pyenv's virtual environment) `pyenv local myproject`
 
 The latter command creates a .python-version file in your current working directory from which you run `eval "$(pyenv virtualenv-init -)"` in your environment, allowing the environment to automatically activate upon entry into that directory (nifty!) Alternatively, you can manually activate your Pyenv environments using `pyenv activate <environment_name>` and deactivate using `pyenv deactivate`.
 
