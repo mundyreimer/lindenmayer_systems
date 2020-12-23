@@ -11,11 +11,15 @@ If just using venv, create a virtual environment named `venv_linden` using:
 `python3 -m venv venv_linden`
 
 If additionally using [Pyenv](https://github.com/pyenv/pyenv) to manage and easily switch between multiple Python versions (recommended practice), create a virtual environment using:
+
 `pyenv virtualenv <python_version> <environment_name>`
+
 See [tutorial here](https://realpython.com/intro-to-pyenv/) for more on Pyenv. Since some of the above graphics-based code relies on a pre-installed Python library called [Turtle](https://realpython.com/beginners-guide-python-turtle/) which itself relies on Python's standard GUI package [Tkinter](https://realpython.com/python-gui-tkinter/), you might run into problems with Tkinter if you are running on a device that's updating to MacOS Big Sur (as of 12/23/2020).  If you do, you might need to install different Python versions via the patch found [here by @htp 8/31/2020](https://github.com/pyenv/pyenv/issues/1643).   
 
 Activate the environment: 
+
 (Just using virtualenv) `source venv_linden/bin/activate`
+
 (Using Pyenv's ) `pyenv local myproject`
 
 The latter command creates a .python-version file in your current working directory from which you run `eval "$(pyenv virtualenv-init -)"` in your environment, allowing the environment to automatically activate upon entry into that directory (nifty!) Alternatively, you can manually activate your Pyenv environments using `pyenv activate <environment_name>` and deactivate using `pyenv deactivate`.
