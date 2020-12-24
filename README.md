@@ -5,7 +5,7 @@ Collection of personal experiments around artificial life, lindenmayer systems, 
 
 ## Setup
 
-Since I chose to use *Turtle* because it already comes pre-packaged with Python and follows the general "*batteries included*" philosophy, all you have to do is copy the specific *\*.py* script you'd like.  Alternatively, if are a bit more advanced in your software skills, you might want to consider following the steps below.
+I chose to use [Turtle](https://docs.python.org/3/library/turtle.html) for my graphics because it already comes pre-packaged with Python and follows the general "*batteries included*" philosophy.  Because of this, all you have to do is copy the specific *\*.py* script you'd like and run that.  Alternatively, if are a bit more advanced in your software skills, you might want to consider following the steps below.
 
 ### 1) Installing dependencies:
 
@@ -16,7 +16,7 @@ If additionally using [Pyenv](https://github.com/pyenv/pyenv) to manage and easi
 
 `pyenv virtualenv <python_version> <environment_name>`
 
-See [tutorial here](https://realpython.com/intro-to-pyenv/) for more on Pyenv. Since some of the above graphics-based code relies on a pre-installed Python library called [Turtle](https://realpython.com/beginners-guide-python-turtle/) which itself relies on Python's standard GUI package [Tkinter](https://realpython.com/python-gui-tkinter/), you might run into problems with Tkinter if you are running on a device that's updating to MacOS Big Sur (as of 12/23/2020).  If you do, you might need to install different Python versions via the patch found [here by @htp 8/31/2020](https://github.com/pyenv/pyenv/issues/1643).   
+See [tutorial here](https://realpython.com/intro-to-pyenv/) for more on Pyenv. Since some of the above graphics-based code relies on a pre-installed Python library called [Turtle](https://docs.python.org/3/library/turtle.html) which itself relies on Python's standard GUI package [Tkinter](https://realpython.com/python-gui-tkinter/), you might run into problems with Tkinter if you are running on a device that's updating to MacOS Big Sur (as of 12/23/2020).  If you do, you might need to install different Python versions via the patch found [here by @htp 8/31/2020](https://github.com/pyenv/pyenv/issues/1643).   
 
 Then activate the environment: 
 
