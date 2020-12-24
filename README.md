@@ -35,7 +35,7 @@ Then install any necessary packages or other dependencies I have (not required a
 
 ## Sources:
 
-* [See here](https://realpython.com/beginners-guide-python-turtle/) for a beginner's tutorial on how to use `Turtle` in Python.  I chose Turtle since it is a pre-installed Python library.
+* [See here](https://realpython.com/beginners-guide-python-turtle/) for a beginner's tutorial on how to use `Turtle` in Python.  I chose Turtle since it is a pre-installed Python library and follows the general "*batteries included*" philosophy.
 
 * [See here](https://hackaday.io/project/11721-python-l-system) for an alternative to the Turtle package called *PyGame*.  This should be more familiar to graphics/game programmers but is still low-level enough for beginners.  Note that if your examples aren't running and you are using a recent version of Mac OS X, it might be a problem with the interaction between *pygame* and *virtualenv*. More [details here](https://github.com/pygame/pygame/issues/203#issuecomment-365798598).
 
