@@ -5,6 +5,8 @@ Collection of personal experiments around artificial life, lindenmayer systems, 
 
 ## Setup
 
+Since I chose to use *Turtle* because it already comes pre-packaged with Python and follows the general "*batteries included*" philosophy, all you have to do is copy the specific *\*.py* script you'd like.  Alternatively, if are a bit more advanced in your software skills, you might want to consider following the steps below.
+
 ### 1) Installing dependencies:
 
 If just using venv, create a virtual environment named `venv_linden` using:
